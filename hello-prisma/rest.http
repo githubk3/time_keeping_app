@@ -1,0 +1,19 @@
+POST http://localhost:3000/staff/checkin
+Content-Type: application/json
+
+{
+    "checkin" : "14/8/2022 7:50:00",
+    "staff_id": 2
+}
+
+###
+GET http://localhost:3000/staff/1
+
+###
+PUT http://localhost:3000/staff/checkout
+Content-Type: application/json
+
+{
+    "checkout" : "14/8/2022 18:04:21",
+    "staff_id":2
+}
